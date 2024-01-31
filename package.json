@@ -1,0 +1,16 @@
+{
+    "name": "guess-my-number",
+    "version": "1.0.0",
+    "description": "Guess-My-Number",
+    "source": "src/index.html",
+    "scripts": {
+        "start": "parcel",
+        "build": "parcel build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Mazen Saad",
+    "license": "ISC",
+    "dependencies": {
+        "parcel": "^2.11.0"
+    }
+}

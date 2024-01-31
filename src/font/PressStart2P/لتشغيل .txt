@@ -1,0 +1,26 @@
+
+
+<!-- font offline  -->
+<link rel="stylesheet" href="font/PressStart2P/PressStart2P.css">
+
+
+<!-- font online  -->
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> -->
+
+
+/* css font online */
+/* font-family: 'Press Start 2P', cursive; */
+/* @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); */
+
+
+
+
+
+
+
+
+
+
+
