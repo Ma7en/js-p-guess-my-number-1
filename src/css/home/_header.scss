@@ -1,0 +1,24 @@
+/* --- start header --- */
+
+.header {
+    .container {
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding-block: 20px;
+
+            .again {
+                position: relative;
+            }
+
+            .between {
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
+
+/* --- end header --- */

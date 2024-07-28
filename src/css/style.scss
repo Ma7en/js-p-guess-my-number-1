@@ -1,0 +1,113 @@
+/* @import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap"); */
+/* css font online */
+/* font-family: 'Press Start 2P', cursive; */
+/* @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); */
+
+/* --- start reset --- */
+
+@import "./global/reset";
+
+/* --- end reset --- */
+
+/* --- start LAYOUT --- */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Press Start 2P", sans-serif;
+    color: #eee;
+    background-color: #222;
+    /* background-color: #60b347; */
+}
+
+:root {
+    --color: red;
+    --main-transition: all 0.5s;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.btn {
+    border: none;
+    background-color: #eee;
+    color: #222;
+    font-size: 2rem;
+    font-family: inherit;
+    padding: 2rem 3rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ccc;
+}
+
+/* --- end LAYOUT --- */
+
+/* --- start header --- */
+
+@import "./home/header";
+
+/* --- end header --- */
+
+/* --- start title --- */
+
+@import "./home/title";
+
+/* --- end title --- */
+
+/* --- start scores --- */
+
+@import "./home/scores";
+
+/* --- end scores --- */
+
+/* --- start footer ---*/
+
+@import "./home/footer";
+
+/* --- end footer ---*/
+
+/* ========== start media Queries =============== */
+
+/* start max 767px */
+@media (max-width: 767px) {
+}
+
+/* start min 768 */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* start max 991 */
+@media (max-width: 991px) {
+}
+
+/* start min 992 */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* start min 1200 */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* ========== end media Queries =============== */

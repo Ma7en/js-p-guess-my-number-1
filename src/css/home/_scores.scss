@@ -1,0 +1,46 @@
+/* --- start scores --- */
+.scores {
+    margin-block: 50px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        .checked {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .guess {
+                background: none;
+                border: 4px solid #eee;
+                font-family: inherit;
+                color: inherit;
+                font-size: 5rem;
+                padding: 2.5rem;
+                width: 25rem;
+                text-align: center;
+                display: block;
+                margin-bottom: 3rem;
+            }
+        }
+
+        .messages {
+            font-size: 2rem;
+
+            .message {
+                margin-bottom: 8rem;
+                height: 3rem;
+            }
+
+            .label-score {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+/* --- end scores --- */

@@ -1,34 +1,29 @@
-# Guess-My-Number
+# Guess My Number
 
-7
+# Mazen Saad
 
-Main project mazen saad
-JavaScript
+# Tool and Language
 
-## <!-- upload files to github -->
+-   JavaScript
 
-git init
+# Upload Files To Github :-
 
-git status
+    - git init
+    - git add .
+    - git commit -m "Initial commit"
+    - git branch -M main
+    - git remote add origin https://github.com/Ma7en/guess-my-number-1.git
+    git push -u origin main
 
-git add -A
+## Upload Files To Firebase :-
 
-git status
+    - npm install -g firebase-tools
+    - firebase login
+    - firebase init
+    - firebase deploy
 
-git commit -m "Initial commit"
+# Links :-
 
-git branch -M main
-
-git remote add origin https://github.com/Ma7en/guess-my-number-1.git
-
-git push -u origin main
-
-## <!-- upload files to firebase -->
-
-npm install -g firebase-tools
-
-firebase login
-
-firebase init
-
-firebase deploy
+    -
+    -
+    -
