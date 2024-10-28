@@ -61,6 +61,10 @@ body {
 
 /* --- end header --- */
 
+main {
+    min-height: 100dvh;
+}
+
 /* --- start title --- */
 
 @import "./home/title";

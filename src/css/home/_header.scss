@@ -10,6 +10,10 @@
             gap: 30px;
             padding-block: 20px;
 
+            @media (max-width: 767px) {
+                flex-direction: column;
+            }
+
             .again {
                 position: relative;
             }

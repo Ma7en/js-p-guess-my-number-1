@@ -1,11 +1,11 @@
 /* --- start footer ---*/
 footer {
     margin-top: 50px;
+    box-shadow: 0 -0.2rem 1.6rem rgba(255, 255, 255, 0.2);
 
     .container {
         text-align: center;
         padding-block: 4rem;
-        box-shadow: 0 -0.2rem 1.6rem rgba(255, 255, 255, 0.2);
 
         a {
             transition: var(--main-transition);

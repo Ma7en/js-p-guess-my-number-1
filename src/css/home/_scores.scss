@@ -9,6 +9,10 @@
         flex-wrap: wrap;
         gap: 30px;
 
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+
         .checked {
             display: flex;
             flex-direction: column;
