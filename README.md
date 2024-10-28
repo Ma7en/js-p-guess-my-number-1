@@ -27,3 +27,7 @@
     - https://github.com/Ma7en/guess-my-number-1
     -
     - https://guess-my-number-1-sable.vercel.app/
+
+```
+npm install --save-dev gh-pages
+```
